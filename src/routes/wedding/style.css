@@ -1,0 +1,128 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.Top-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://i.ibb.co/XpbbDJR/bg1.jpg');
+  background-position: 0% 40%;
+}
+.Navbar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 100%;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.navlink {
+  display: contents;
+}
+.image {
+  width: 240px;
+  height: 45px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.Links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navlink1 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.text {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.navlink2 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.navlink3 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.text1 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.Right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image1 {
+  width: 76px;
+  align-self: stretch;
+  margin-top: -2px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.navlink4 {
+  display: contents;
+}
+.component {
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .Top-container {
+    background-image: url('https://i.ibb.co/ySqHygJ/bg3-copy.jpg');
+  }
+  .image {
+    width: 381px;
+  }
+  .Right-side {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .Top-container {
+    align-self: center;
+    align-items: stretch;
+    justify-content: center;
+    background-image: url('https://i.ibb.co/my94H7J/bg2-copy.jpg');
+  }
+  .Navbar {
+    height: 114px;
+    align-self: center;
+    flex-direction: column;
+  }
+  .image {
+    width: 330px;
+    align-self: stretch;
+  }
+  .Links-container {
+    width: 453px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
